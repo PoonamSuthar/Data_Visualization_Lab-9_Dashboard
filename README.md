@@ -13,5 +13,6 @@ Finally, the script defines two callback functions that take in the selected val
 
 The script can be run to launch the dashboard using the command python filename.py. The dashboard can then be accessed in a web browser at http://127.0.0.1:8050/. The user can select values from the dropdown menus to update the heatmap and scatter plot accordingly.
 
+![](https://github.com/PoonamSuthar/Data_Visualization_Lab-9_Dashboard/blob/main/dashboard_GIF.gif)
 
 
