@@ -45,6 +45,6 @@ Before conducting the analysis, the dataset was cleaned and prepared. This invol
 Based on the analysis of the Netflix dataset, several key findings emerged. The majority of the content on Netflix consists of movies, with a wide range of release years and genres. Viewers have access to content of varying durations, and the ratings indicate a generally positive reception of the content. These insights can be valuable for understanding audience preferences and shaping content strategies on the Netflix platform.
 
 
-![](https://github.com/PoonamSuthar/Data_Visualization_Lab-9_Dashboard/blob/main/dashboard_GIF.gif)
+![](https://https://github.com/PoonamSuthar/Data_Visualization_Lab-9_Dashboard/blob/main/netflix_Dashboard.webm)
 
 
