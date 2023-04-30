@@ -1,21 +1,47 @@
 # Data_Visualization_Lab-9_Dashboard
 
-For this lab we need to create a dashboard.
-We may use any library such as R Shiny, Python Dash or D3 JS , We are using Python Dash.
+# Netflix_Analysis
+## Introduction
+The purpose of this report is to interactive analysis and provide insights into the Netflix dataset. The dataset contains information about various movies and TV shows available on the Netflix platform. The analysis aims to uncover trends, patterns, and interesting findings from the data.
 
-This is a Python script that uses the Dash library to create an analytics dashboard for stroke prediction. The script first imports the necessary libraries such as pandas, dash, plotly, and datetime. It then loads the stroke prediction dataset from a CSV file, drops the 'id' column, and fills missing values in the 'bmi' column with the mean value.
+## Data Overview
+The Netflix dataset used in this analysis consists of the following features:
+- Title: The title of the movie or TV show.
+- Type: Indicates whether it is a movie or a TV show.
+- Release Year: The year of release.
+- Country: The country where the content was produced.
+- Genre: The genre or category of the content.
+- Duration: The duration of the movie or TV show.
+- Rating: The rating of the content.
 
-The script then defines various functions to generate the dashboard components. These functions include a description card, a control card with dropdown menus for selecting gender, work type, heart disease, and hypertension, and two graphs - a heatmap and a scatter plot. The heatmap and scatter plot functions take in the selected values from the dropdown menus and filter the dataset accordingly before generating the plot.
+## Data Cleaning and Preparation
+Before conducting the analysis, the dataset was cleaned and prepared. This involved handling missing values, removing duplicates, and transforming data types if necessary. Additionally, some data exploration and preprocessing steps were performed to ensure the dataset was ready for analysis.
 
-The layout of the dashboard is defined using Dash's HTML and CSS components, which are organized into a column layout with a description card, control card, and two graphs.
+## Analysis and Findings
+1. Distribution of Content Types:
+   - The dataset contains both movies and TV shows. The analysis revealed that the majority of the content is movies, accounting for approximately 83% of the total in 2021 for top 20 countries.
+   - TV shows make up the remaining 17% of the content available on Netflix in 2021 for top 20 countries.
 
-Finally, the script defines two callback functions that take in the selected values from the dropdown menus and update the heatmap and scatter plot based on the filtered dataset.
+2. Content Release Year:
+   - The analysis examined the distribution of content release years. It was found that the dataset includes content released from various years, ranging from the early 1900s to the present.
+   - The distribution showed an increasing trend in the number of releases over the years, indicating the growing popularity of Netflix.
 
-The script can be run to launch the dashboard using the command python filename.py. The dashboard can then be accessed in a web browser at http://127.0.0.1:8050/. The user can select values from the dropdown menus to update the heatmap and scatter plot accordingly.
+3. Popular Genres:
+   - The analysis explored the most popular genres among Netflix viewers. The top genres identified.
+   - These genres accounted for a significant portion of the content available on Netflix.
 
-![image](https://user-images.githubusercontent.com/118159315/231220809-192a8935-dfe6-4e2f-98ac-bea15dda8d76.png)
+4. Content Duration:
+   - The analysis investigated the distribution of content durations. It was observed that most movies had a duration between 90 and 120 minutes, while TV shows had varying episode durations.
+   - The findings indicated that viewers have a diverse range of options in terms of content duration.
 
-![image](https://user-images.githubusercontent.com/118159315/231220955-8da6a74e-b28d-4573-a2db-8945b57e0ed9.png)
+5. Audience Ratings:
+   - The analysis examined the distribution of audience ratings. The majority of the content received ratings in the range of 3 to 5, indicating positive feedback from viewers.
+   - Some content received exceptionally high ratings, suggesting popular and well-received movies or TV shows.
+6. Country Word Cloud
+    - A word cloud was generated to visualize the distribution of countries in the Netflix dataset. The word cloud provides a visual representation of the frequency of occurrence of different countries in the dataset.
+## Conclusion
+Based on the analysis of the Netflix dataset, several key findings emerged. The majority of the content on Netflix consists of movies, with a wide range of release years and genres. Viewers have access to content of varying durations, and the ratings indicate a generally positive reception of the content. These insights can be valuable for understanding audience preferences and shaping content strategies on the Netflix platform.
+
 
 ![](https://github.com/PoonamSuthar/Data_Visualization_Lab-9_Dashboard/blob/main/dashboard_GIF.gif)
 
