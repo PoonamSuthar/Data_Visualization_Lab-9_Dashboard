@@ -29,6 +29,8 @@ Before conducting the analysis, the dataset was cleaned and prepared. This invol
 3. Popular Genres:
    - The analysis explored the most popular genres among Netflix viewers. The top genres identified.
    - These genres accounted for a significant portion of the content available on Netflix.
+   
+   
 
 4. Content Duration:
    - The analysis investigated the distribution of content durations. It was observed that most movies had a duration between 90 and 120 minutes, while TV shows had varying episode durations.
